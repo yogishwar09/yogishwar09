@@ -30,6 +30,11 @@
 
 <img src="assets/glass/arena-header.svg" width="100%" alt="The Arena — live contribution games" />
 
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/contributions/contribution-rider-light.svg" />
+  <img src="assets/contributions/contribution-rider.svg" width="100%" alt="Contribution Rider: an animated copy of the contribution graph where a pixel superbike rides every weekday row collecting the real contribution squares." />
+</picture>
+
 <img src="assets/contributions/contribution-city.svg" width="100%" alt="Night City: one glass tower for every active GitHub day; lit windows equal that day's contributions." />
 
 <picture>
