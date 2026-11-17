@@ -1,32 +1,126 @@
 {
-  "_note": "Verified snapshot of public GitHub data for yogishwar09, captured 2026-11-17 from api.github.com and github.com/yogishwar09. The GitHub Action replaces this file with live data on every run.",
+  "_note": "Verified public GitHub data for yogishwar09 (logged-out view), captured 2026-11-17 15:20 IST. The GitHub Action replaces this with live data.",
   "captured_at": "2026-11-17",
   "user": {
     "login": "yogishwar09",
-    "public_repos": 9,
+    "public_repos": 10,
     "followers": 1,
     "following": 2,
     "stars_received": 3,
-    "contributions_last_year": 70,
+    "contributions_last_year": 72,
     "achievements": []
   },
   "repos": [
-    {"name": "ai-customer-retention-platform-", "language": "Python", "stars": 1, "fork": false, "created_at": "2026-05-26", "pushed_at": "2026-10-19", "description": "RetentionIQ - AI customer retention platform (telecom churn)"},
-    {"name": "AI-Interview-Trainer-Pro", "language": "Python", "stars": 1, "fork": false, "created_at": "2026-07-12", "pushed_at": "2026-07-24", "description": "AI-powered interview preparation platform using IBM Granite, IBM Cloud, watsonx.ai Runtime, and Streamlit."},
-    {"name": "aide-steganography", "language": "Python", "stars": 0, "fork": false, "created_at": "2026-09-08", "pushed_at": "2026-11-09", "description": "Adaptive image steganography framework (AIDE)"},
-    {"name": "CanSat-Ground-Control-Software", "language": "JavaScript", "stars": 0, "fork": false, "created_at": "2026-08-02", "pushed_at": "2026-08-05", "description": "Web-based ground control software for a simulated CanSat mission"},
-    {"name": "forage-midas", "language": "Java", "stars": 0, "fork": true, "created_at": "2026-05-21", "pushed_at": "2024-08-15", "description": "Project repo for the JPMC Advanced Software Engineering Forage program"},
-    {"name": "golden-hour", "language": "TypeScript", "stars": 1, "fork": false, "created_at": "2026-09-23", "pushed_at": "2026-09-29", "description": "Real-time emergency ambulance dispatch for Hyderabad"},
-    {"name": "guardrail-qa", "language": "Python", "stars": 0, "fork": false, "created_at": "2026-11-03", "pushed_at": "2026-11-03", "description": "Test automation framework for an LLM chatbot"},
-    {"name": "midas-core-banking-backend", "language": null, "stars": 0, "fork": false, "created_at": "2026-05-21", "pushed_at": "2026-05-21", "description": null},
-    {"name": "rideshare-driver-system", "language": "Python", "stars": 0, "fork": false, "created_at": "2026-05-29", "pushed_at": "2026-05-30", "description": null}
+    {
+      "name": "ai-customer-retention-platform-",
+      "language": "Python",
+      "stars": 1,
+      "fork": false,
+      "created_at": "2026-05-26",
+      "pushed_at": "2026-10-19",
+      "description": "RetentionIQ - AI customer retention platform (telecom churn)"
+    },
+    {
+      "name": "AI-Interview-Trainer-Pro",
+      "language": "Python",
+      "stars": 1,
+      "fork": false,
+      "created_at": "2026-07-12",
+      "pushed_at": "2026-07-24",
+      "description": "AI-powered interview preparation platform using IBM Granite, IBM Cloud, watsonx.ai Runtime, and Streamlit."
+    },
+    {
+      "name": "aide-steganography",
+      "language": "Python",
+      "stars": 0,
+      "fork": false,
+      "created_at": "2026-09-08",
+      "pushed_at": "2026-11-09",
+      "description": "Adaptive image steganography framework (AIDE)"
+    },
+    {
+      "name": "CanSat-Ground-Control-Software",
+      "language": "JavaScript",
+      "stars": 0,
+      "fork": false,
+      "created_at": "2026-08-02",
+      "pushed_at": "2026-08-05",
+      "description": "Web-based ground control software for a simulated CanSat mission"
+    },
+    {
+      "name": "forage-midas",
+      "language": "Java",
+      "stars": 0,
+      "fork": true,
+      "created_at": "2026-05-21",
+      "pushed_at": "2024-08-15",
+      "description": "Project repo for the JPMC Advanced Software Engineering Forage program"
+    },
+    {
+      "name": "golden-hour",
+      "language": "TypeScript",
+      "stars": 1,
+      "fork": false,
+      "created_at": "2026-09-23",
+      "pushed_at": "2026-09-29",
+      "description": "Real-time emergency ambulance dispatch for Hyderabad"
+    },
+    {
+      "name": "guardrail-qa",
+      "language": "Python",
+      "stars": 0,
+      "fork": false,
+      "created_at": "2026-11-03",
+      "pushed_at": "2026-11-03",
+      "description": "Test automation framework for an LLM chatbot"
+    },
+    {
+      "name": "midas-core-banking-backend",
+      "language": null,
+      "stars": 0,
+      "fork": false,
+      "created_at": "2026-05-21",
+      "pushed_at": "2026-05-21",
+      "description": null
+    },
+    {
+      "name": "rideshare-driver-system",
+      "language": "Python",
+      "stars": 0,
+      "fork": false,
+      "created_at": "2026-05-29",
+      "pushed_at": "2026-05-30",
+      "description": null
+    },
+    {
+      "name": "motoverse",
+      "language": "JavaScript",
+      "stars": 0,
+      "fork": false,
+      "created_at": "2026-11-17",
+      "pushed_at": "2026-11-17",
+      "description": null
+    }
   ],
   "calendar_start": "2025-11-16",
   "calendar_end": "2026-11-17",
   "contributions": {
-    "2026-05-21": 2, "2026-05-26": 1, "2026-05-29": 1, "2026-07-12": 1, "2026-08-02": 1,
-    "2026-09-08": 13, "2026-09-10": 4, "2026-09-16": 6, "2026-09-17": 4, "2026-09-18": 5,
-    "2026-09-21": 6, "2026-09-22": 1, "2026-09-23": 10, "2026-09-29": 1, "2026-11-03": 6,
-    "2026-11-09": 8
+    "2026-05-21": 2,
+    "2026-05-26": 1,
+    "2026-05-29": 1,
+    "2026-07-12": 1,
+    "2026-08-02": 1,
+    "2026-09-08": 13,
+    "2026-09-10": 4,
+    "2026-09-16": 6,
+    "2026-09-17": 4,
+    "2026-09-18": 5,
+    "2026-09-21": 6,
+    "2026-09-22": 1,
+    "2026-09-23": 10,
+    "2026-09-29": 1,
+    "2026-11-03": 6,
+    "2026-11-09": 8,
+    "2026-11-17": 2
   }
 }
