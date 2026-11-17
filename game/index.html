@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>YOGISHWAR · MOTOVERSE</title>
+  <meta name="description" content="Yogishwar's developer profile as a night-time motorcycle racing world. Ride across a 3D terrain built from real GitHub contributions." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="world" aria-label="3D night racing circuit built from Yogishwar's GitHub contribution calendar"></canvas>
+  <div class="scrim" aria-hidden="true"></div>
+
+  <!-- ───────── HERO ───────── -->
+  <header id="hero" class="hero">
+    <div class="hero-top">
+      <span class="brand"><i></i>MOTOVERSE</span>
+      <nav>
+        <a href="#about">About</a><a href="#arsenal">Arsenal</a><a href="#projects">Projects</a><a href="#telemetry">Telemetry</a><a href="#connect">Connect</a>
+      </nav>
+    </div>
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="led"></span>GITHUB · YOGISHWAR09 · NIGHT SESSION</p>
+      <h1>YOGISHWAR</h1>
+      <p class="tagline">CODE. RIDE. <b>CREATE.</b></p>
+      <p class="sub">ENGINEERING THE FUTURE.</p>
+      <p class="id">COMPUTER SCIENCE <i>|</i> DATA SCIENCE <i>|</i> AI &amp; ML</p>
+      <div class="cta">
+        <button id="play" class="btn primary">▶ RIDE THE CONTRIBUTIONS</button>
+        <a class="btn ghost" href="#about">PROFILE ↓</a>
+      </div>
+    </div>
+    <div class="hero-meta">
+      <div><b id="m-contrib">—</b><span>contributions · 12 months</span></div>
+      <div><b id="m-days">—</b><span>active days</span></div>
+      <div><b id="m-repos">—</b><span>public repos</span></div>
+    </div>
+  </header>
+
+  <!-- ───────── HUD (game) ───────── -->
+  <div id="hud" class="hud" hidden>
+    <div class="hud-left">
+      <div class="readout"><span>SCORE</span><b id="h-score">0</b></div>
+      <div class="readout"><span>DISTANCE</span><b id="h-dist">0 m</b></div>
+      <div class="readout"><span>TIME</span><b id="h-time">0.00</b></div>
+      <div class="readout"><span>CHECKPOINTS</span><b id="h-cp">0 / 0</b></div>
+      <div class="readout"><span>COMMITS COLLECTED</span><b id="h-col">0 / 0</b></div>
+    </div>
+    <div class="hud-center"><div id="h-date" class="date-chip">—</div><div id="h-toast" class="toast"></div></div>
+    <canvas id="speedo" width="260" height="260" aria-label="Speedometer"></canvas>
+    <div class="hud-bottom">
+      <canvas id="minimap" width="636" height="96" aria-label="Contribution calendar minimap"></canvas>
+      <div class="keys"><kbd>W</kbd>/<kbd>↑</kbd> throttle · <kbd>S</kbd>/<kbd>↓</kbd> brake · <kbd>A</kbd><kbd>D</kbd>/<kbd>←</kbd><kbd>→</kbd> steer · <kbd>R</kbd> restart · <kbd>Esc</kbd> exit
+        <button id="restart" class="btn tiny">↺ RESTART</button><button id="exit" class="btn tiny ghost">EXIT</button></div>
+    </div>
+    <div id="countdown" class="countdown"></div>
+    <div id="results" class="results" hidden>
+      <h2>RUN COMPLETE</h2>
+      <dl>
+        <dt>TIME</dt><dd id="r-time">—</dd>
+        <dt>SCORE</dt><dd id="r-score">—</dd>
+        <dt>COMMITS COLLECTED</dt><dd id="r-col">—</dd>
+        <dt>CHECKPOINTS</dt><dd id="r-cp">—</dd>
+        <dt>BEST</dt><dd id="r-best">—</dd>
+      </dl>
+      <button class="btn primary" id="again">↺ RIDE AGAIN (R)</button>
+    </div>
+  </div>
+
+  <!-- ───────── PROFILE PANELS ───────── -->
+  <main id="profile">
+    <section id="about" class="panel">
+      <h2><span>01</span>ABOUT</h2>
+      <p class="lead">Hey, I'm <b>Yogishwar</b>, a Computer Science and Data Science student passionate about building intelligent systems, exploring AI, and turning ideas into practical technology.</p>
+      <div class="chips focus">
+        <span>B.Tech CSE · Data Science</span><span>Artificial Intelligence</span><span>Machine Learning</span><span>Software Development</span><span>Cloud Technologies</span>
+      </div>
+    </section>
+
+    <section id="arsenal" class="panel">
+      <h2><span>02</span>TECHNOLOGY ARSENAL</h2>
+      <p class="legend"><i class="on"></i>used in public repos <i class="off"></i>listed skill</p>
+      <div class="grid4">
+        <div class="bay"><h3>PROGRAMMING</h3><div class="chips"><span class="on">Python</span><span>Java</span><span>C</span></div></div>
+        <div class="bay"><h3>DATA</h3><div class="chips"><span class="on">SQL</span><span class="on">NoSQL</span><span class="on">Data Science</span><span class="on">Data Analysis</span></div></div>
+        <div class="bay"><h3>AI / ML</h3><div class="chips"><span class="on">Machine Learning</span><span class="on">Artificial Intelligence</span><span class="on">IBM Granite</span></div></div>
+        <div class="bay"><h3>PLATFORMS</h3><div class="chips"><span class="on">Git</span><span class="on">GitHub</span><span class="on">Streamlit</span><span class="on">IBM Cloud</span></div></div>
+      </div>
+    </section>
+
+    <section id="projects" class="panel">
+      <h2><span>03</span>FEATURED PROJECTS</h2>
+      <div class="projects">
+        <article class="proj">
+          <p class="kicker">P1 · AGENTIC AI CAREER COACH</p>
+          <h3>AI Interview Trainer Pro</h3>
+          <p>AI-powered interview preparation platform on IBM Granite and IBM Cloud: mock interviews, resume analysis, career roadmaps, interview feedback and PDF reports.</p>
+          <div class="chips small"><span>Python</span><span>Streamlit</span><span>IBM Granite</span><span>watsonx.ai</span><span>IBM Cloud</span></div>
+          <a href="https://github.com/yogishwar09/AI-Interview-Trainer-Pro">REPOSITORY ↗</a>
+        </article>
+        <article class="proj">
+          <p class="kicker">P2 · RETAINAI · CUSTOMER RETENTION</p>
+          <h3>RetentionIQ</h3>
+          <p>Turns a telecom churn model into a retention decision platform: explainable risk scores, next-best-action playbooks, impact experiments and governed model releases.</p>
+          <div class="chips small"><span>Python</span><span>XGBoost</span><span>Random Forest</span><span>Streamlit</span><span>FastAPI</span></div>
+          <a href="https://github.com/yogishwar09/ai-customer-retention-platform-">REPOSITORY ↗</a>
+        </article>
+        <article class="proj">
+          <p class="kicker">P3 · SMART AMBULANCE DISPATCH</p>
+          <h3>Golden Hour</h3>
+          <p>Real-time emergency dispatch for Hyderabad: triage first, then the nearest clinically capable ambulance, offered with a countdown, routed over real roads and tracked live.</p>
+          <div class="chips small"><span>TypeScript</span><span>React</span><span>Socket.IO</span><span>MongoDB</span><span>Leaflet</span></div>
+          <a href="https://github.com/yogishwar09/golden-hour">REPOSITORY ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="telemetry" class="panel">
+      <h2><span>04</span>GITHUB TELEMETRY</h2>
+      <div class="gauges" id="gauges"></div>
+      <div class="langs" id="langs"></div>
+      <p class="source" id="source"></p>
+    </section>
+
+    <section id="focus" class="panel">
+      <h2><span>05</span>CURRENT FOCUS</h2>
+      <div class="chips focus"><span>AI</span><span>Machine Learning</span><span>Data Science</span><span>Software Development</span></div>
+      <p id="recent" class="muted"></p>
+    </section>
+
+    <section id="connect" class="panel">
+      <h2><span>06</span>CONNECT</h2>
+      <div class="connect">
+        <a class="link" href="https://github.com/yogishwar09">GITHUB<small>github.com/yogishwar09</small></a>
+        <a class="link" href="https://www.linkedin.com/in/yogishwarp/">LINKEDIN<small>linkedin.com/in/yogishwarp</small></a>
+      </div>
+    </section>
+    <footer class="foot">YOGISHWAR · CODE. RIDE. CREATE. · ENGINEERING THE FUTURE</footer>
+  </main>
+
+  <script src="assets/contributions.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
