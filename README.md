@@ -49,10 +49,6 @@
 
 <img src="assets/glass/thanks.svg" width="100%" alt="Thanks for visiting. Code, ride, create, repeat." />
 
-<p align="center">
-  <img src="assets/fun/pixel-bike.svg" width="18%" alt="Pixel superbike" />
-  <img src="assets/fun/neon-game-on.svg" width="60%" alt="Neon sign: GAME ON" />
-  <img src="assets/fun/pixel-bike-2.svg" width="18%" alt="Pixel superbike" />
-</p>
+<img src="assets/glass/next-level.svg" width="100%" alt="Next level loading: a rainbow XP bar fills to the real contribution count while a pixel superbike rides along it." />
 
 <img src="assets/animations/footer.svg" width="100%" alt="YOGISHWAR — Code. Ride. Create. Engineering the future." />
