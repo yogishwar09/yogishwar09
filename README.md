@@ -18,7 +18,7 @@
 
 <img src="assets/glass/player-log.svg" width="100%" alt="Player Log: B.Tech CSE student specialising in Data Science; loves AI, Machine Learning and Data Science; ships on IBM Cloud, watsonx.ai and IBM Granite; lives by Code. Ride. Create." />
 
-<img src="assets/glass/inventory.svg" width="100%" alt="Inventory: Python, Java, C, SQL, NoSQL, Data Science, Data Analysis, Machine Learning, Artificial Intelligence, IBM Granite, IBM Cloud, Streamlit, Git, GitHub." />
+<img src="assets/glass/skills-3d.svg" width="100%" alt="3D skill icons: Python, Java, C, SQL, NoSQL, Data Science, Data Analysis, Machine Learning, Artificial Intelligence, IBM Granite, IBM Cloud, Streamlit, Git, GitHub. A green dot marks skills used in public repositories." />
 
 <img src="assets/glass/quest-header.svg" width="100%" alt="Quest Log — featured projects" />
 
